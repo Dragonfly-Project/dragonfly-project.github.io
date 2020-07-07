@@ -170,8 +170,8 @@ header p {
 	display:inline-block;
 	padding:18px 2rem;
 	line-height:1;
-	border-radius:12px;
-	width: 200px;
+	border-radius:90px;
+	width: 250px;
 	height: 55px;
 	font-size: 18px;
 }
@@ -777,7 +777,11 @@ header p {
 
 
 .devicesch:hover {
-	transform: scale(1.05);
+	transform: scale(1.10);
+}
+
+.telegram:hover {
+	transform: scale(1.10);
 }
 
 hr.new4 {
