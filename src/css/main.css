@@ -21,6 +21,11 @@ a {
 	background-color:transparent
 }
 
+a:hover {
+	text-decoration: none;
+
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-size:100%;
 	font-weight:400
@@ -147,7 +152,7 @@ header .branding {
 }
 
 header .branding:hover {
-	transform: scale(1.05);
+	transform: scale(1.00);
 }
 
 header .header__title {
