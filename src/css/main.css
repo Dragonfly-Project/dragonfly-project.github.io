@@ -102,7 +102,7 @@ html {
 }
 
 body {
-	background-color:#fff;
+	background-color: #1d1d1d;
 	font-size:1rem;
 	line-height:1.6;
 	color:#4a5568;
@@ -150,6 +150,9 @@ header p {
 .header__links {
 	margin-top:1rem;
 	color:#fff;
+	font-family:Google Sans;
+	text-align:center;
+
 }
 
 .header__links a {
@@ -736,6 +739,16 @@ header p {
 	display: inline-block;
 }
 
+.text {
+	color:black;
+	width:50px;
+	font-family:Google Sans;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+	line-height:52px;
+}
+
 #rcorners {
 	border-radius: 100%;
 }
@@ -745,12 +758,13 @@ hr.new4 {
 }
 
 #about { 
-	color:rgba(0, 0, 0, 1);
+	color:rgb(255, 255, 255);
 	opacity:1;
 	width:429px;
 	height:109px;
 	font-family:Google Sans;
 	text-align:center;
+	font-weight: bolder;
 	font-size:24px;
 	letter-spacing:0;
 	line-height:52px;
